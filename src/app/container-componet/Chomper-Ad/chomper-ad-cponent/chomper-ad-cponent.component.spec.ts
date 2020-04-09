@@ -1,20 +1,20 @@
 import { async, ComponentFixture, TestBed } from '@angular/core/testing';
 
-import { ContainerComponentComponent } from './container-component.component';
+import { ChomperAdCponentComponent } from './chomper-ad-cponent.component';
 
-describe('ContainterComponentComponent', () => {
-  let component: ContainerComponentComponent;
-  let fixture: ComponentFixture<ContainerComponentComponent>;
+describe('ChomperAdCponentComponent', () => {
+  let component: ChomperAdCponentComponent;
+  let fixture: ComponentFixture<ChomperAdCponentComponent>;
 
   beforeEach(async(() => {
     TestBed.configureTestingModule({
-      declarations: [ ContainerComponentComponent ]
+      declarations: [ ChomperAdCponentComponent ]
     })
     .compileComponents();
   }));
 
   beforeEach(() => {
-    fixture = TestBed.createComponent(ContainerComponentComponent);
+    fixture = TestBed.createComponent(ChomperAdCponentComponent);
     component = fixture.componentInstance;
     fixture.detectChanges();
   });
